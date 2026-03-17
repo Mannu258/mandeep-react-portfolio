@@ -1,0 +1,12 @@
+packages:
+  "framer-motion": "Required for smooth reveal-on-scroll animations and interactive micro-interactions."
+  "react-hook-form": "For robust contact form state management."
+  "@hookform/resolvers": "For Zod validation integration with the contact form."
+
+images:
+  - path: "artifacts/portfolio/public/images/hero-bg-glow.png"
+    description: "Abstract minimal gradient mesh background in deep black #050505 with very subtle glowing electric blue and cyan soft light leaks in the corners"
+    aspect_ratio: "16:9"
+
+notes:
+  - This is a static frontend portfolio. The contact form does not make a real API call, it just simulates a successful submission via UI toast.
