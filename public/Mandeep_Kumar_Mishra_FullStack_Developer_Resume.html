@@ -1,0 +1,438 @@
+<head>
+  <meta charset="UTF-8">
+  <title>Mandeep Kumar Mishra - Full-Stack Developer Resume</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Meta Description -->
+  <meta name="description" content="Resume of Mandeep Kumar Mishra, Full-Stack Developer specializing in Python, Django, Flask, React, and REST APIs. Experienced in building scalable web applications and automation scripts.">
+
+  <!-- Meta Keywords -->
+  <meta name="keywords" content="Mandeep Kumar Mishra, Full-Stack Developer, Python, Django, Flask, React, REST APIs, Resume, Portfolio">
+
+  <!-- Author -->
+  <meta name="author" content="Mandeep Kumar Mishra">
+
+  <!-- Open Graph for social sharing -->
+  <meta property="og:title" content="Mandeep Kumar Mishra - Full-Stack Developer Resume">
+  <meta property="og:description" content="Results-driven Full-Stack Developer with 2+ years of experience in Python, Django, Flask, React, and REST APIs.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://developer.mandeep.icu">
+  <meta property="og:image" content="https://developer.mandeep.icu/profile.jpg">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Mandeep Kumar Mishra - Full-Stack Developer Resume">
+  <meta name="twitter:description" content="Explore the professional resume of Mandeep Kumar Mishra, Full-Stack Developer specializing in Python, Django, Flask, React, and REST APIs.">
+</head>
+  <style>
+    /* Global Styles */
+    body {
+      background: #f3f4f6;
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+
+     /* Resume Card */
+    .resume-card {
+      background: #fff;
+      max-width: 850px;
+      margin: 0 auto;
+      padding: 36px 44px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Header */
+    header {
+      border-bottom: 2px solid #2563eb;
+      padding-bottom: 16px;
+    }
+
+    header h1 {
+      font-size: 26px;
+      font-weight: 700;
+      color: #111827;
+      margin: 0;
+      letter-spacing: -0.5px;
+    }
+
+    header h2 {
+      font-size: 13px;
+      font-weight: 600;
+      color: #2563eb;
+      margin: 4px 0;
+    }
+
+    header p {
+      font-size: 11px;
+      color: #6b7280;
+      margin: 4px 0;
+    }
+
+    /* Contact Row */
+    .contact {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px 16px;
+      margin-top: 10px;
+    }
+
+    .contact a,
+    .contact span {
+      display: flex;
+      align-items: center;
+      font-size: 11px;
+      color: #6b7280;
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+
+    .contact a:hover {
+      color: #2563eb;
+    }
+
+    /* Section Headers */
+    section h3 {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      color: #2563eb;
+      text-transform: uppercase;
+      margin-top: 20px;
+      margin-bottom: 12px;
+      border-bottom: 1px solid #dbeafe;
+      padding-bottom: 2px;
+    }
+
+    /* Summary */
+    .summary {
+      font-size: 11.5px;
+      color: #374151;
+      line-height: 1.6;
+    }
+
+    /* Skills */
+    .skills-row {
+      display: flex;
+      flex-wrap: wrap;
+      margin-bottom: 10px;
+    }
+
+    .skills-label {
+      font-weight: 700;
+      min-width: 170px;
+      font-size: 11px;
+      color: #111827;
+    }
+
+    .badge {
+      background: #eff6ff;
+      color: #1e40af;
+      border: 1px solid #bfdbfe;
+      font-size: 10px;
+      padding: 3px 6px;
+      border-radius: 4px;
+      margin: 2px 4px 2px 0;
+    }
+
+    /* Projects */
+    .project {
+      margin-bottom: 14px;
+    }
+
+    .project-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .project-name {
+      font-size: 12px;
+      font-weight: 700;
+      color: #111827;
+      margin-right: 8px;
+    }
+
+    .project-links a {
+      font-size: 10px;
+      color: #2563eb;
+      margin-left: 8px;
+      text-decoration: none;
+    }
+
+    .project-desc {
+      font-size: 11px;
+      color: #374151;
+      margin-top: 2px;
+      line-height: 1.6;
+    }
+
+    .project-impact {
+      font-size: 10.5px;
+      color: #15803d;
+      font-style: italic;
+      margin-top: 2px;
+    }
+
+    /* Experience & Certifications */
+    ul.experience,
+    ul.certifications {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    ul.experience li,
+    ul.certifications li {
+      position: relative;
+      padding-left: 16px;
+      font-size: 11px;
+      color: #374151;
+      line-height: 1.6;
+      margin-bottom: 6px;
+    }
+
+    ul.experience li::before,
+    ul.certifications li::before {
+      content: "•";
+      position: absolute;
+      left: 0;
+      color: #3b82f6;
+    }
+
+    /* Education */
+    .education {
+      font-size: 11px;
+      color: #111827;
+    }
+
+    .education-sub {
+      font-size: 10.5px;
+      color: #6b7280;
+    }
+
+    /* Footer */
+    footer {
+      border-top: 1px solid #f3f4f6;
+      text-align: center;
+      font-size: 10px;
+      color: #6b7280;
+      margin-top: 20px;
+      padding-top: 10px;
+    }
+
+  </style>
+
+
+  <div class="resume-card">
+    <!-- Header -->
+    <header>
+      <h1>Mandeep Kumar Mishra</h1>
+      <h2>Full-Stack Developer</h2>
+      <p>Python • Django • Flask • React • REST APIs</p>
+      <div class="contact">
+        <a href="mailto:mandeepkumarmannu123@gmail.com">✉ mandeepkumarmannu123@gmail.com</a>
+        <a href="https://developer.mandeep.icu">🌐 developer.mandeep.icu</a>
+        <a href="https://github.com/Mannu258">GitHub: github.com/Mannu258</a>
+        <a href="https://linkedin.com/in/mandeep-mishra-843378223">LinkedIn:
+          linkedin.com/in/mandeep-mishra-843378223</a>
+        <span>📍 India</span>
+      </div>
+    </header>
+
+    <!-- Professional Summary -->
+    <section>
+      <h3>Professional Summary</h3>
+      <p class="summary">
+        Results-driven Full-Stack Developer with 2+ years of hands-on experience building scalable web applications,
+        robust REST APIs, and automation scripts. Specializing in the Python ecosystem—Django, Django REST Framework,
+        and Flask—paired with modern React frontends. Proven track record of delivering production-grade applications
+        across e-commerce, healthcare, and governance sectors. Passionate about clean architecture, database
+        optimization, and crafting seamless user experiences.
+      </p>
+    </section>
+
+    <!-- Technical Skills -->
+    <section>
+      <h3>Technical Skills</h3>
+      <div class="skills-row">
+        <div class="skills-label">Languages & Frameworks:</div>
+        <div>
+          <span class="badge">Python</span><span class="badge">JavaScript</span><span class="badge">HTML5</span><span
+            class="badge">CSS3</span><span class="badge">Django</span><span class="badge">Django REST Framework
+            (DRF)</span><span class="badge">Flask</span><span class="badge">React</span>
+        </div>
+      </div>
+      <div class="skills-row">
+        <div class="skills-label">Databases & Tools:</div>
+        <div>
+          <span class="badge">PostgreSQL</span><span class="badge">MySQL</span><span class="badge">SQLite</span><span
+            class="badge">Git</span><span class="badge">GitHub</span><span class="badge">Docker</span><span
+            class="badge">Linux</span><span class="badge">VS Code</span><span class="badge">Postman</span>
+        </div>
+      </div>
+      <div class="skills-row">
+        <div class="skills-label">Concepts & Practices:</div>
+        <div>
+          <span class="badge">REST API Design</span><span class="badge">OOP</span><span class="badge">Database
+            Optimization</span><span class="badge">Workflow Automation</span><span class="badge">UI/UX
+            Troubleshooting</span><span class="badge">Version Control</span><span class="badge">Deployment</span><span
+            class="badge">Backend Architecture</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section>
+      <h3>Projects</h3>
+
+      <div class="project">
+        <div class="project-top">
+          <div>
+            <span class="project-name">OG Movers</span>
+            <span class="badge">Django</span><span class="badge">Python</span><span class="badge">HTML/CSS</span><span
+              class="badge">Bootstrap</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/Mannu258/og-movers">GitHub</a>
+            <a href="https://ogmovers.com.au">Live</a>
+          </div>
+        </div>
+        <p class="project-desc">Production-grade moving services platform with real-time booking management, job
+          tracking, and customer portal. Deployed and actively used at ogmovers.com.au.</p>
+        <p class="project-impact">Live production site serving real customers in Australia</p>
+      </div>
+
+      <div class="project">
+        <div class="project-top">
+          <div>
+            <span class="project-name">My Awesomecart</span>
+            <span class="badge">Django</span><span class="badge">Django REST Framework</span><span
+              class="badge">React</span><span class="badge">Python</span><span class="badge">MySQL</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/Mannu258/Ecommerce">GitHub</a>
+            <a href="https://myawesomecart.pythonanywhere.com">Live</a>
+          </div>
+        </div>
+        <p class="project-desc">Full-featured e-commerce marketplace with cart management, secure checkout flows, user
+          authentication, and RESTful product APIs built with Django REST Framework and React.</p>
+        <p class="project-impact">Complete e-commerce solution deployed on PythonAnywhere</p>
+      </div>
+
+      <div class="project">
+        <div class="project-top">
+          <div>
+            <span class="project-name">Database Management System</span>
+            <span class="badge">Python</span><span class="badge">MySQL</span><span class="badge">SQLite</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/Mannu258">GitHub</a>
+            <a href="http://dbmojopanda.com">Live</a>
+          </div>
+        </div>
+        <p class="project-desc">Custom data organization tool for managing complex records, executing optimized queries,
+          and automating bulk data processing workflows using Python, MySQL, and SQLite.</p>
+        <p class="project-impact">Handles optimized multi-table queries for real operational data</p>
+      </div>
+
+      <div class="project">
+        <div class="project-top">
+          <div>
+            <span class="project-name">Chairman Muzaffarnagar</span>
+            <span class="badge">Django</span><span class="badge">Python</span><span class="badge">Bootstrap</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/Mannu258/Chairman-muzaffarnagar">GitHub</a>
+          </div>
+        </div>
+        <p class="project-desc">Digital governance platform bridging local administration and citizens. Features service
+          request management, public announcements, and citizen-facing information portal.</p>
+        <p class="project-impact">Digitized local government processes for citizen engagement</p>
+      </div>
+
+      <div class="project">
+        <div class="project-top">
+          <div>
+            <span class="project-name">Speech Care</span>
+            <span class="badge">Django</span><span class="badge">Python</span><span class="badge">Flask</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/Mannu258/Speech-care-Flask">GitHub</a>
+          </div>
+        </div>
+        <p class="project-desc">Specialized healthcare platform connecting patients with speech therapy professionals.
+          Includes appointment scheduling, professional profiles, and patient management system.</p>
+        <p class="project-impact">End-to-end patient-provider coordination platform</p>
+      </div>
+
+      <div class="project">
+        <div class="project-top">
+          <div>
+            <span class="project-name">Chakumna View</span>
+            <span class="badge">React</span><span class="badge">Django</span><span class="badge">Payment Gateway
+              Integration</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/Mannu258/Chakumba-view">GitHub</a>
+          </div>
+        </div>
+        <p class="project-desc">Modern React web application with secure payment gateway integration, featuring smooth
+          user flows for service browsing, booking, and checkout. Built with a Django backend powering authenticated
+          endpoints and transaction handling.</p>
+        <p class="project-impact">Seamless end-to-end payment experience with secure transaction processing</p>
+      </div>
+    </section>
+
+
+    <!-- Experience -->
+    <section>
+      <h3>Experience</h3>
+      <p class="education"><strong>Full-Stack Developer (Freelance / Independent)</strong> — Self-Employed | 2022 –
+        Present</p>
+      <ul class="experience">
+        <li>Architected and deployed multiple Django-based web applications for clients across Australia, India, and the
+          US, handling full lifecycle from requirements to production.</li>
+        <li>Built production REST APIs using Django REST Framework consumed by React frontends and third-party
+          integrations.</li>
+        <li>Developed workflow automation scripts in Python (pandas, python-docx) that reduced manual data processing
+          effort by 80%+ for clients.</li>
+        <li>Managed PostgreSQL and MySQL databases: schema design, query optimization, and data migration.</li>
+        <li>Troubleshot and resolved UI/UX issues across responsive web apps, improving cross-browser compatibility and
+          accessibility.</li>
+        <li>Implemented deployment pipelines on PythonAnywhere and Linux VPS environments with Docker-assisted
+          containerization.</li>
+      </ul>
+    </section>
+
+    <!-- Education -->
+    <section>
+      <h3>Education</h3>
+      <p class="education"><strong>Bachelor of Computer Applications (BCA)</strong> | Bhupendra Narayan Mandal
+        University (B.N.M.U.) | 2018 – 2022</p>
+      <p class="education-sub">Core coursework: Data Structures, DBMS, Software Engineering, Web Technologies, Computer
+        Networks</p>
+    </section>
+
+    <!-- Certifications & Achievements -->
+    <section>
+      <h3>Certifications & Achievements</h3>
+      <ul class="certifications">
+        <li>Python Programming — Self-study + Projects | OOP, Django ORM, REST APIs, Automation scripting</li>
+        <li>Web Development — Project Portfolio | Full-stack development with React, Django, Flask</li>
+        <li>GitHub Pull Shark Achievement — GitHub | Awarded for consistent contributions through pull requests on
+          GitHub</li>
+      </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      References available on request · Portfolio: developer.mandeep.icu · GitHub: github.com/Mannu258
+    </footer>
+  </div>
+</body>
+
+</html>
