@@ -63,7 +63,7 @@ export function Hero() {
             </a>
             
             <a
-              href="#"
+              href="/Mandeep_Kumar_Mishra_FullStack_Developer_Resume.html"
               className="px-8 py-4 rounded-xl font-semibold text-base text-white border border-white/20 hover:bg-white/5 transition-all duration-300 flex items-center gap-2"
             >
               <Download size={18} />
